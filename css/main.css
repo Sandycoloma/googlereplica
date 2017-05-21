@@ -160,6 +160,24 @@ a.button:hover{
 	font-size: 14px;
 }
 
+@media(max-width: 500px){
+	.top-navigation{
+		display: none;
+	
+	}
+	.search-box{
+		width: 20%;
+	}
+	.bottom-site-links{
+		display: none;
+	}
+	.search-button{
+		width: 10%;
+		height: 20%;
+		display: inline;
+	}
+
+}
 
 
 
